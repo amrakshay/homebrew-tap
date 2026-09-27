@@ -1,6 +1,6 @@
 cask "maclens" do
-  version "1.2.1"
-  sha256 "93ac73759dae087e3abfb3c81146021b6c38fe6f0cccf3917d6540fe940fd386"
+  version "1.3.0"
+  sha256 "ce4b24ff8f7e064788b6d31c8830ba6be094b175e37cb2cd704021adc5018594"
 
   url "https://github.com/amrakshay/maclens/releases/download/v#{version}/MacLens-#{version}.zip"
   name "MacLens"
