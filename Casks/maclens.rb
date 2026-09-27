@@ -1,6 +1,6 @@
 cask "maclens" do
-  version "1.0.0"
-  sha256 "28e3c5f839bbf8d370105fe6287ee76e0f67ed04b2fed97220c0477e17a630a5"
+  version "1.1.0"
+  sha256 "afec8d3896a8a069c950e9181f04fc14010094966c9cb36ed57c1c9e55a02880"
 
   url "https://github.com/amrakshay/maclens/releases/download/v#{version}/MacLens-#{version}.zip"
   name "MacLens"
@@ -8,7 +8,7 @@ cask "maclens" do
   homepage "https://github.com/amrakshay/maclens"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "MacLens.app"
 
